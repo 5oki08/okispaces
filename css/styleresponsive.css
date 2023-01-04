@@ -1,0 +1,95 @@
+@media screen and (max-width: 600px) {
+body {
+	/*font-size: 14px;*/
+}
+/*#introdetails {
+	margin-bottom: 50px;
+}*/
+
+#persPhotoimg {
+	display: none;
+}
+.seenamebelow {
+	/*text-align: center;*/
+}
+
+#grid1 {
+	/*border: 2px solid red;*/
+	border-radius: 0px;
+	/*background-color: transparent;*/
+	background-image: url("../images/passportPhoto.jpeg");
+	background-position: center;
+	color: #ffffff;
+}
+
+/*.flex-container {
+	padding: 0px;
+}*/
+
+/*.samoki>div {
+	height: auto;
+	border: 2px solid red;
+}*/
+
+#someworksheader {
+	margin-top: 10px;
+}
+
+#portfoliocontid {
+	display: flex;
+	flex-direction: column;
+}
+
+#portfoliocont {
+	/*border: 2px solid blue; */
+	/*background-color: yellow;*/
+	/*color: green;*/
+	border-bottom: 1px solid #cecece;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+.responsiveorderdesc { order: 2; }
+.responsiveorderimg { order: 1; }
+
+/*#portfoliocont> div {
+	display: unset;
+}*/
+
+
+#someworks1 {
+	height: 100%;
+	padding: 0px;
+	margin-bottom: 8px;
+}
+
+#someworks2 {
+	height: 100%;
+	padding: 0px;
+	margin-top: 8px;
+}
+
+
+.card {
+	width: 100%;
+}
+#abouttopicsbtn {
+	padding: 0;
+}
+#abouttopicsbtn:hover {
+	padding: 5px;
+}
+
+#row1 {
+	visibility: hidden;
+}
+
+.tab-content {
+	box-shadow: none;
+	padding: 0px;
+}
+
+h5 {
+	text-decoration: underline;
+}
